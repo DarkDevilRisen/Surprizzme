@@ -1,0 +1,165 @@
+ body{
+    /* background-color: rgb(255, 0, 255); */
+    /* background-color: rgb(129, 70, 206); */
+    /* background-color: rgb(255, 239, 97); */
+    /* background-color: rgb(124, 255, 112); */
+    /* background-color: rgb(255, 188, 101); */
+    background-color: rgb(255, 203, 92);
+
+}  
+
+.marque{
+  
+   transform: translate(15%,-15%);
+   color: #1b1a1a;
+   text-shadow: 1px 1px 1px #919191,
+       1px 2px 1px #919191,
+       1px 3px 1px #919191,
+       1px 4px 1px #919191,
+       1px 5px 1px #919191,
+       1px 6px 1px #919191,
+       1px 7px 1px #919191,
+       1px 8px 1px #919191,
+       1px 9px 1px #919191,
+       1px 10px 1px #919191,
+   1px 18px 6px rgba(16,16,16,0.4),
+   1px 22px 10px rgba(16,16,16,0.2),
+   1px 25px 35px rgba(16,16,16,0.2),
+   1px 30px 60px rgba(16,16,16,0.4);
+}
+.crd{
+   background-color: rgb(255, 203, 92);
+   border: 0;
+}
+
+
+/* 
+div{
+    background-color: rgb(255, 255, 255); 
+    
+} */
+
+ .bg{
+    padding: 1px;
+    border: 1px solid;
+}
+
+/* ul>li{
+    display: inline;
+    padding-right: 10px;
+    }  */
+
+ .mypic{
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+     box-shadow: rgb(32, 32, 32);
+ }
+
+ /* .txt{
+    color: white;
+ } */
+
+ div.footnav{
+
+    text-align: center;
+    width: 100%;
+ }
+
+ 
+ body {
+   position: relative;
+   margin: 0;
+   padding-bottom: 2em;
+   min-height: 100%;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   padding: 10px;
+   
+}
+
+html {
+   height: 100%;
+   box-sizing: border-box;
+}
+
+/* gallery */
+.pic{
+   max-height: 500px;
+}
+
+/* testimonial */
+
+.team-boxed p {
+   color: #7d8285
+}
+
+.team-boxed .people {
+   padding: 50px 0
+}
+
+.team-boxed .item {
+   text-align: center
+}
+
+.team-boxed .item .name {
+   font-weight: bold;
+   font-style: italic;
+   margin-top: 10px;
+   margin-bottom: 1px;
+   color: inherit
+}
+
+.team-boxed .item .title {
+   font-weight: bold;
+   font-style: italic;
+   color: #000000;
+   letter-spacing: 0.5px;
+   font-size: 15px
+}
+
+.team-boxed .item .description {
+   font-size: 15px;
+   font-style: italic;
+}
+
+.team-boxed .social {
+   font-size: 18px;
+   padding-bottom: 10px;
+}
+
+.team-boxed .social:hover {
+   font-size: 18px;
+}
+
+.team-boxed .social a {
+   margin: 0 10px;
+   display: inline-block;
+   opacity: 0.7;
+   padding: 6px
+}
+
+.team-boxed .social a:hover {
+   opacity: 1
+}
+
+.testipic{
+   min-width: 300px;
+   max-height: 300px;
+}
+
+/* text abtus */
+.txt h2, .txt h3{
+   text-shadow: #919191;
+   font-style: italic;
+   color: rgb(9, 95, 23);
+}
+
+//grid images
