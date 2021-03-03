@@ -1,0 +1,149 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprizzme</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/bootstrap/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  shadow">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <!-- <img src="https://freepngimg.com/download/web_design/31748-9-coder-transparent.png" alt="multiperson"
+                    width="30" height="30" class="d-inline-block alignt-top">--> Surprizzme</a>
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#naba"
+                aria-controls="naba" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="naba">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="package.html" class="nav-link">Book Event</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="contactus.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+
+    </nav>
+    <!-- Nav bar End -->
+    <!-- Body Content start -->
+    <div class="container card crd mt-5 mb-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="bday" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#bday" data-slide-to="0" class="active"></li>
+                      <li data-target="#bday" data-slide-to="1"></li>
+                      <li data-target="#bday" data-slide-to="2"></li>
+                    </ul>              
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./styles/images/cake.jpg" class="pic d-block w-100" alt="BirthDay Pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./styles/images/decor.PNG" class="pic d-block w-100" alt="BirthDay Pic">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./styles/images/heart.jpg" class="pic d-block w-100" alt="BirthDay Pic">
+                      </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#bday" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#bday" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>                  
+                </div>
+            </div>
+        </div>
+        <div><h3 style="text-align: center;"> BirthDay Events</h3></div>
+        
+    </div>
+    <div class="container card crd mt-5 mb-5">
+       
+    </div>
+
+
+
+
+
+
+
+    <!-- Body Content End -->
+
+    <!-- Footer Start -->
+
+
+    <div class="container-flluid">
+        <nav class="navbar navbar-expand-lg bg-light footer">
+            <div class="footnav">CopyRights 2021 Surprizzme</div>
+        </nav>
+    </div>
+
+
+
+    <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            [...document.querySelectorAll('.first-column')].map(column => {
+                column.style.setProperty('--animation', 'slide');
+                column.style.setProperty('height', '200%');
+                column.innerHTML = column.innerHTML + column.innerHTML;
+            });
+
+        });
+    </script>
+
+    <!-- Script js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
